@@ -17,15 +17,15 @@ os.chdir (path)
 
 def main():
 
-    # parameter determination
-    number_of_models = 10000  # No of kcat samples
-    #parameter_set_dim = 1151  # No of kcat parameters in model
-    parameter_set_dim = 40  # No of kcat parameters in model
-
     # load the enzyme_id
     #data = pd.read_csv ('data/RMSE2.csv')
     #enzyme_preparation = data[data['ERROR'] < 0.05]
-    enzyme_preparation = pd.read_csv ('data/merged_data.csv')
+    enzyme_preparation = pd.read_csv ('kcat_merge_2.csv')
+
+    # parameter determination
+    number_of_models = 10000  # No of kcat samples
+    #parameter_set_dim = 1151  # No of kcat parameters in model
+    parameter_set_dim = len(enzyme_preparation)  # No of kcat parameters in model
 
     # load enzyme information
     enzymedataFile = "data/Saccharomyces_cerevisiae_dl.mat"
