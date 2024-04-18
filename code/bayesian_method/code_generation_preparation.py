@@ -157,7 +157,7 @@ def changeMedia(model , model_cobra , c_source , media , anox=False , flux=-1000
     # first block any uptake
     exchangerxn = getExchangeRxns (model , reactionType="both")
     for a in range (len (exchangerxn[0])):
-        model_cobra.reactions.get_by_id(exchangerxn[1][a][0][0]).lower_bound = 0
+        model_cobra.reactions[exchangerxn[0][a]].lower_bound = 0
     pos = getComponentIndexes (model , c_source)
 
     # The media will define which rxns to fix:
@@ -190,7 +190,7 @@ def changeMedia(model , model_cobra , c_source , media , anox=False , flux=-1000
     # Fix values as LBs:
     i = 0
     for i in range (N):
-        model_cobra.reactions.get_by_id(model['rxns'][pos][i][0][0][0]).lower_bound = -1000  # flux[i]
+        model_cobra.reactions[pos[i][0]].lower_bound = -1000  # flux[i]
 
     # Allow uptake of essential components
     model_cobra.reactions.get_by_id ('r_1654').lower_bound = -1000  # 'ammonium exchange';
@@ -405,23 +405,20 @@ def getrSample(mu, sigma, lb, ub, step, method = 'Uniform'):
     for i in range(len(lb)):
         if lb[i] == ub[i] and lb[i] == 0:
             lb[i] = -2
-            ub[i] = 6
-
-        mutmp = np.log10 (np.array (mu[i]) / 3600)
-        sigmatmp = sigma[i]
+            ub[i] = 8
         if method == 'normal':
-            a,b = (lb[i]-mutmp)/sigmatmp, (ub[i]-mutmp)/sigmatmp
-            samples = truncnorm.rvs(a,b,loc = mutmp, scale = sigmatmp,size = int(step))
-            #samples = norm.rvs(loc = mutmp, scale = sigmatmp,size = int(step))
+            mutmp = np.log10(np.array(mu[i])/3600)
+            sigmatmp = sigma[i]
+            samples = norm.rvs(loc = mutmp, scale = sigmatmp,size = int(step))
             samples[samples<lb[i]] = lb[i]
             samples[samples>ub[i]] = ub[i]
             samples = 10**samples*3600
             r[i,:] = samples
 
         elif method == 'Uniform':
-            lower_bound = mutmp - sigmatmp
-            upper_bound = mutmp + sigmatmp
-            samples = uniform.rvs(loc=mutmp - sigmatmp, scale=2 * sigmatmp, size=int(step))
+            mutmp = np.log10(np.array(mu[i])/3600)
+            sigmatmp = sigma[i]
+            samples = uniform.rvs(loc = mutmp, scale = sigmatmp,size = int(step))
             samples[samples<lb[i]] = lb[i]
             samples[samples>ub[i]] = ub[i]
             samples = 10**samples*3600

@@ -41,8 +41,7 @@ def rmsecal(model , model_cobra , data , constrain , objective , osenseStr , pro
         with model_cobra as model_tmp:
 
             # Suitable for different carbon sources
-            #model_tmp = changeMedia (model , model_tmp , data[i , 1][0] , data[i , 15])  # 'D-glucose'
-            model_tmp = changeMedia (model , model_tmp , 'D-glucose' , data[i , 15])
+            model_tmp = changeMedia (model , model_tmp , data[i , 1][0] , data[i , 15])  # 'D-glucose'
             model_tmp.reactions.get_by_id ('r_1634').bounds = 0 , 0
             model_tmp.reactions.get_by_id ('r_1631').bounds = 0 , 0
 
@@ -78,6 +77,9 @@ def rmsecal(model , model_cobra , data , constrain , objective , osenseStr , pro
             #    else:
             #        cost = 0
             #    cost_list[p , 0] = cost
+            nMets = len (model['mets']) + 1
+            nRxns = len (model['rxns']) + 1
+            cost_list = np.zeros ((nRxns , 1))
             for p , rxnid in enumerate (model['rxns']):
                 rxnid = tuple (rxnid)
                 cost = prot_cost_info.get (rxnid[0][0] , 0)
@@ -87,26 +89,20 @@ def rmsecal(model , model_cobra , data , constrain , objective , osenseStr , pro
             # met = cobra.Metabolite ('cost' , name='cost' , compartment='c')
             # model_tmp.add_metabolites (met)
 
-            #tupll = tuple ([float (m) for m in cost_list])
-            cost_floats = [float (m) for m in cost_list]
-            #reactions_with_cost = [r for r in model_tmp.reactions if 'cost' in r.metabolites]
-            #for q , reaction in enumerate (reactions_with_cost):
-            #    coeff = reaction.get_coefficient ('cost')
-            #    reaction.add_metabolites ({'cost': cost_floats[q] - coeff})
-            met = model_tmp.metabolites.get_by_id ("cost")
-            filtered_reactions = [reaction for reaction in model_tmp.reactions if met in reaction.metabolites]
-            for q in range (len (filtered_reactions)-1):
-                cost_value = prot_cost_info_value[q]
-                coeff = filtered_reactions[q].get_coefficient ('cost')
-                filtered_reactions[q].add_metabolites ({"cost": cost_value - coeff})
-            #for q , reaction in enumerate (model_tmp.reactions):
-            #    if 'cost' in reaction.metabolites:
-            #        coeff = reaction.get_coefficient ('cost')
-            #    else:
-            #        coeff = 0
-            #    reaction.add_metabolites ({'cost': cost_floats[q] - coeff})
+            start_time3 = time.time ()
+            tupll = tuple ([float (m) for m in cost_list])
+            for q , reaction in enumerate (model_tmp.reactions):
+                if 'cost' in reaction.metabolites:
+                    coeff = reaction.get_coefficient ('cost')
+                else:
+                    coeff = 0
+                reaction.add_metabolites ({'cost': float (tupll[q]) - coeff})
             # model_tmp.add_boundary (model_tmp.metabolites.get_by_id ("cost") , type="sink" , ub=tot_prot_weight * 1000 ,
             #                        lb=0)
+
+            end_time3 = time.time ()
+            execution_time3 = end_time3 - start_time3
+            print ("execution time3: " , execution_time3 , " seconds")
 
             # Solve the temp model
             sol_tmp = model_tmp.optimize ()
@@ -161,8 +157,8 @@ def rmsecal(model , model_cobra , data , constrain , objective , osenseStr , pro
             else:
                 rmse_tmp.append (np.sqrt (mean_squared_error (exp_tmp[0] , [simulated_tmp[0]])))
         simulated[i , :] = np.transpose (np.array (sol)[idx[0]])
-        #print (rmse_tmp)
-        #print (simulated[i , :])
+        print (rmse_tmp)
+        print (simulated[i , :])
     rmse = sum (rmse_tmp) / len (data[: , 0])
     print ("RMSE = " + str (rmse))
 
