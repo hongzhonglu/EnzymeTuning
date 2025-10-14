@@ -12,9 +12,6 @@ from cobra import Model , Reaction , Metabolite
 import cProfile
 import time
 
-path = "F:\python\Bayesian_python"
-os.chdir (path)
-
 def getFraction(model , data , compType , X):
     '''
     X: Biomass fraction without lipids [g/gDW]

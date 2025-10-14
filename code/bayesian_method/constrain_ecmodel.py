@@ -80,18 +80,6 @@ def parse_gr_rule(gr):
     '''
     Parse gr rule into a list of components.
     gr: gene reaction rule, defined in cobrapy.
-
-    For example:
-
-    Input         : Output
-    A or B        : ["A", "B"]
-    (A and B)     : ["A and B"]
-    (A and B) or C: ["A and B","C"]
-
-    Usage: complexes = parse_gr_rule(gr)
-
-    Gang Li, last updated 2020-03-04
-
     '''
     complexes = [item.strip().replace('(','').replace(')','') for item in gr.split('or')]
     if len(complexes) < 2 and len(complexes[0]) < 1: complexes = []
@@ -108,8 +96,6 @@ def addEnzymesToRxn(rxn, kcat_dict, protIDs, rxn_index=None):
     MWs      : a dictionary with prot_id as key and molecular weight as value
 
     Usage: e_rxn, prot_exchange_rxns = addEnzymesToRxn(rxn, kcat, protIDs,MWs)
-
-    Gang Li, last updated 2020-03-03
     '''
 
     e_rxn      = rxn.copy()
@@ -118,12 +104,6 @@ def addEnzymesToRxn(rxn, kcat_dict, protIDs, rxn_index=None):
         e_rxn.name = e_rxn.name + ' (No{0})'.format(rxn_index)
     prots = [item.strip() for item in protIDs.split('and')]
 
-
-    # get compartment
-    #comp = None
-    #for met in rxn.metabolites:
-    #    comp = met.compartment
-    #    if rxn.get_coefficient(met)<0: comp = met.compartment
 
     comp = "c"
 
@@ -157,29 +137,6 @@ def addEnzymesToRxn(rxn, kcat_dict, protIDs, rxn_index=None):
     return e_rxn, prot_exchange_rxns
 
 def getArmReaction(rxn):
-    '''
-    Adapted from addArmReaction.m from geckomat. Add an arm reaction for the selected reaction in the model.
-
-    rxn: the reaction Object in cobrapy
-
-    Original reaction: A + B --> C + D
-
-    Arm reaction    : A + B --> pmet   (no gr rule)
-    Change the orginial reaction to:  pmet --> C + D (use old gr rule)
-
-    The arm reaction has a id format of "arm_rxnID" and a name format of "rxnName (arm)"
-
-    The intermediate metabilite has a name format of "pmet_rxnID"
-
-    The arm reaction shares the same lb, ub, gr rules, subsystems with original reaction.
-
-    Compartment: fistly try to use the same compartment as substrates, then products', otherwise None.
-
-
-    Usage: rxn_new, arm_rxn = addArmReaction(model,rxn_id).
-
-    Gang Li, Last update: 2020-03-03
-    '''
 
     # 1. create intermediate metabilite
     rxnID = rxn.id
@@ -214,11 +171,6 @@ def constrainAbandance(model,measured):
     '''
     model       : eModel from convertToEnzymeModel()
     measured    : a dictionary with measured enzyme abandance, in the unit of mmol/gdw
-    g
-    # define the upper bound of protein exchange reactions with protein abandance.
-    # e.g. the reaction id is in the format of "prot_TD01GL001367_exchange"
-
-    Usage: model = constrainAbandance(model,MWs, non_measured,UB)
     '''
 
     for prot_id, ab in measured.items():
@@ -229,22 +181,12 @@ def constrainAbandance(model,measured):
 
 def constrainPool(model,MWs, measured, non_measured,UB,copy=True):
     '''
-
     model       : eModel from convertToEnzymeModel()
     MWs         : a dictionary with molecular weight of enzymes, in the unit of kDa
     non_measured: a list of enzymes without proteomics data
     measured    : a dictionary with measured enzyme abandance, in the unit of mmol/gdw
     UB          : upper bound for the combined pool of those non_measured enzymes
     copy        : if creat a copy of the original model
-
-    Define new rxns: For each enzyme, add a new rxn that draws enzyme from the
-    enzyme pool (a new metabolite), and remove previous exchange rxn. The new
-    rxns have the following stoichiometry (T is the enzyme pool):
-     MW[i]*P[T] -> P[i]
-
-    Usage: model = constrainPool(model,MWs, non_measured,UB)
-
-    Gang Li, last updated 2020-03-04
     '''
     if copy: model = model.copy()
     # create prot_pool metabolite
@@ -295,10 +237,6 @@ def convertToEnzymeModel(model,kcats):
     '''
     model .   : irrevModel
     kcats     : a dictionary with kcat values {('protein_id',rxn_id):100,...}
-
-    Usage: eModel = convertToEnzymeModel(model,kcats)
-
-    Gang Li, last updated 2020-03-04
     '''
     converted_reaction_list = []
     protein_exchange_rxns = {}

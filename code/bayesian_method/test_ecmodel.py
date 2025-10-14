@@ -5,8 +5,6 @@ import pandas as pd
 from cobra.io import load_matlab_model, save_matlab_model, read_sbml_model, write_sbml_model
 import scipy.io as scio
 from cobra import Model,Reaction,Metabolite
-path = "F:\python\Bayesian_python"
-os.chdir(path)
 from constrain_ecmodel import parse_gr_rule
 from constrain_ecmodel import addEnzymesToRxn
 from constrain_ecmodel import construct_kcat_dict
@@ -80,10 +78,9 @@ for i in range (len (df)):
 
 with eModel:
     ecModel = constrainPool (eModel , MWs , {} , eModel.enzymes , 230)
-
     s2 = get_r_max (ecModel , model_dl)
     r2 = s2.objective_value
-    print ('Case 2: without omics constraints')
+    print ('Case 1: without omics constraints')
     print ('  Status        :' , s2.status)
     print ('  growth_rate   :' , r2)
     # print('  glucose uptake:',s2.fluxes['Exchange_Glucopyranose'])

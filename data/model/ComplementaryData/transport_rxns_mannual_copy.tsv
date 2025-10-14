@@ -1,0 +1,140 @@
+1	RXN0-21	glutathione exporter	ATP + WATER --> ADP + PROTON + Pi	GLUTATHIONE	out	1
+2	RXN-9615	ammonium transporter	 --> 	AMMONIUM	in	1
+3	TRANS-RXN0-479	selenite ABC transporter;selenite  ABC transporter	ATP + WATER --> ADP + PROTON + Pi	SELENITE	in	1
+4	ABC-70-RXN	sulfate  ABC transporter;sulfate ABC transporter	ATP + WATER --> ADP + PROTON + Pi	SULFATE	in	1
+5	ABC-27-RXN	transport of phosphate	ATP + WATER --> ADP + PROTON + Pi	Pi	in	1
+6	TRANS-RXN0-286	lipid II flippase	 --> 	C6	out	1
+7	TRANS-RXN0-268	Transport of L-Ala-D-Glu-meso-A2pm	ATP + WATER --> ADP + PROTON + Pi	L-ALA-GAMMA-D-GLU-DAP	in	1
+8	TRANS-RXN-355	n-hexane efflux pump	 --> 	"CPD-9288,PROTON"	out	"1,1"
+9	RXN0-11	transport of glutathione	ATP + WATER --> ADP + PROTON + Pi	GLUTATHIONE	in	1
+10	TRANS-RXN-167	N-acetyl-D-galactosamine PTS;N-acetylglucosamine PTS permease;N-acetyl-D-glucosamine PTS permease	Hpr-pi-phospho-L-histidines + N-acetyl-D-glucosamine --> Hpr-Histidine + N-ACETYL-D-GLUCOSAMINE-6-P	N-acetyl-D-glucosamine	in	1
+11	ABC-24-RXN	putrescine/spermidine ABC transporter	ATP + WATER --> ADP + PROTON + Pi	SPERMIDINE	in	1
+12	TRANS-RXN-352	deoxycholate efflux pump	 --> 	"DEOXYCHOLATE,PROTON"	out	"1,1"
+13	TRANS-RXN-296	cobinamide ABC transporter	ATP + WATER --> ADP + PROTON + Pi	COBINAMIDE	in	1
+14	RXN-19739	glutaconyl-CoA decarboxylase	GLUTACONYL-COA + PROTON --> CARBON-DIOXIDE + CROTONYL-COA	NA+	out	1
+15	TRANS-RXN0-513	lanthionine ABC transporter	ATP + WATER --> ADP + PROTON + Pi	CPD-3736	in	1
+16	TRANS-RXN0-244	Cd2+:H+ antiporter	 <=> 	"CD+2,PROTON"	out	"1,-1"
+17	TRANS-RXN-42	K+ : H+ antiporter KefB;K+ : H+ antiporter KefC;K+:H+ antiporter;Na+/K+:H+ antiporter ChaA	 <=> 	"K+,PROTON"	in	"1,-1"
+18	TRANS-RXN-365	deoxycholate efflux pump	 --> 	"DEOXYCHOLATE,PROTON"	out	"1,1"
+19	RXN0-2501	chloride:H+ antiporter;chloride:H+ antiporter ClcA	 <=> 	"CL-,PROTON"	in	"2,-1"
+20	TRANS-RXN-273	nitroimidazole export	 --> 	CPD-14545	out	1
+21	TRANS-RXN-127	L-tartrate:succinate antiporter	 <=> 	"SUC,TARTRATE"	in	"1,-1"
+22	TRANS-RXN0-510	N-acetyl-DL-methionine transport	ATP + WATER --> ADP + PROTON + Pi	CPD-3738	in	1
+23	TRANS-RXN0-492	transport of beta-D-galactofuranose	ATP + WATER --> ADP + PROTON + Pi	CPD0-2485	in	1
+24	ABC-36-RXN	transport of L-valine	ATP + WATER --> ADP + PROTON + Pi	VAL	in	1
+25	TRANS-RXN0-447	transport of adenine	 <=> 	"PROTON,ADENINE"	in	"1,1"
+26	ABC-16-RXN	maltose ABC transporter	ATP + WATER --> ADP + PROTON + Pi	MALTOSE	in	1
+27	ATPSYN-RXN	ATP synthase;H+-translocating V-ATPase;ATP hydrolase	ATP + WATER <=> ADP + PROTON + Pi	PROTON	out	4
+28	TRANS-RXN-347	norfloxacin:Na+ antiport	 <=> 	"NA+,CPD-21015"	in	"1,-1"
+29	RXN0-3	L-cysteine exporter	ATP + WATER --> ADP + PROTON + Pi	CYS	out	1
+30	TRANS-RXN-312	L-phenylalanine transport;transport of L-phenylalanine	ATP + WATER --> ADP + PROTON + Pi	PHE	in	1
+31	RXN0-18	inosine:H+ antiporter	 <=> 	"PROTON,INOSINE"	in	"1,-1"
+32	TRANS-RXN-242	L-homoserine:H+ antiporter	 <=> 	"HOMO-SER,PROTON"	in	"1,-1"
+33	ABC-13-RXN	transport of L-glutamate	ATP + WATER --> ADP + PROTON + Pi	GLT	in	1
+34	TRANS-RXN0-200	Zn2+:H+ antiporter	 <=> 	"ZN+2,PROTON"	in	"1,-1"
+35	RXN0-5111	glycolate:cation symporter	 <=> 	"NA+,GLYCOLLATE"	in	"1,1"
+36	TRANS-RXN-359	ethidium efflux pump	 --> 	"CPD0-1938,PROTON"	out	"1,1"
+37	TRANS-RXN-325	canavanine exporter	 --> 	CANAVANINE	out	1
+38	RXN0-1702	transport of ferric coprogen	 --> 	"CPD0-621,PROTON"	in	"1,-1"
+39	TRANS-RXN0-593	L-cystine ABC transporter	ATP + WATER --> ADP + PROTON + Pi	CYSTINE	in	1
+40	TRANS-RXN-122A	transport of L-aspartate;L-aspartate:H+ symporter;aspartate transport	 <=> 	"L-ASPARTATE,PROTON"	in	"1,2"
+41	TRANS-RXN0-503	maltotriose ABC transporter	ATP + WATER --> ADP + PROTON + Pi	MALTOTRIOSE	in	1
+42	ABC-8-RXN	Transport of a dipeptide	ATP + WATER --> ADP + PROTON + Pi	DIPEPTIDES	in	1
+43	ABC-10-RXN	transport of ferric enterobactin	ATP + WATER --> ADP + PROTON + Pi	FERRIC-ENTEROBACTIN-COMPLEX	in	1
+44	TRANS-RXN0-269	L-valine exporter	 <=> 	VAL	in	1
+45	TRANS-RXN0-222	transport of L-aspartate	ATP + WATER --> ADP + PROTON + Pi	TRANS-RXN0-222	in	1
+46	TRANS-RXN0-0244	L-threonine:H+ antiport;L-threonine:H+ antiporter	 <=> 	"THR,PROTON"	in	"1,-1"
+47	TRANS-RXN-356	decanoate efflux pump	 --> 	"CPD-3617,PROTON"	out	"1,1"
+48	TRANS-RXN-340	bicozamycin:H+ antiporter	 <=> 	"CPD-20921,PROTON"	in	"1,-1"
+49	RXN0-1981	acetate:cation symporter	 <=> 	"NA+,ACET"	in	"1,1"
+50	TRANS-RXN-167A	D-glucosamine PTS permease	GLUCOSAMINE + Hpr-pi-phospho-L-histidines --> D-GLUCOSAMINE-6-P + Hpr-Histidine	GLUCOSAMINE	in	1
+51	RXN-5076	xanthine:H+ symporter XanQ;xanthine:H+ symporter XanP	 <=> 	"XANTHINE,PROTON"	in	"1,1"
+52	ABC-25-RXN	putrescine/spermidine ABC transporter;transport of putresince	ATP + WATER --> ADP + PROTON + Pi	PUTRESCINE	in	1
+53	RXN0-4083	serine/threonine:Na+ symporter	 <=> 	"SER,NA+"	in	"1,1"
+54	TRANS-RXN-353	novobiocin efflux pump	 --> 	"CPD-15417,PROTON"	out	"1,1"
+55	TRANS-RXN-297	ferric coprogen ABC transporter	ATP + WATER --> ADP + PROTON + Pi	CPD0-621	in	1
+56	RXN0-22	guanosine:H+ antiporter	 <=> 	"GUANOSINE,PROTON"	in	"1,-1"
+57	RXN0-1923	O-acetyl-L-serine exporter;export of O-acetyl-L-serine	 --> 	ACETYLSERINE	out	1
+58	TRANS-RXN-162	L-glutamate:H+ symporter	 <=> 	"GLT,PROTON"	in	"1,2"
+59	TRANS-RXN-132	uracil:H+ symporter;uracil:H+ symporter UraA	 <=> 	"URACIL,PROTON"	in	"1,1"
+60	RXN0-6	Fe2+:H+ antiporter	 <=> 	"FE+2,PROTON"	in	"1,-1"
+61	ABC-5-RXN	vitamin B12 ABC transporter	ATP + WATER --> ADP + PROTON + Pi	COB-I-ALAMIN	in	1
+62	TRANS-RXN0-452	p-aminobenzoyl glutamate:H+ symporter	 <=> 	"CPD0-889,PROTON"	in	"1,1"
+63	ABC-20-RXN	nickel ABC transporter	ATP + WATER --> ADP + PROTON + Pi	NI+2	in	1
+64	TRANS-RXN0-258	transport of N-acetyl-beta-D-glucosamine(anhydrous)-N-acetylmuramate	 <=> 	"CPD0-1081,PROTON"	in	"1,1"
+65	TRANS-RXN0-207	Cu+ exporting P-type ATPase	ATP + WATER --> ADP + PROTON + Pi	CU+	out	1
+66	RXN0-4522	methionine transport	ATP + WATER --> ADP + PROTON + Pi	MET	in	1
+67	TRANS-RXN-366	cefoperazone ABC exporter	ATP + WATER --> ADP + PROTON + Pi	CPD-19953	out	1
+68	TRANS-RXN0-549	"transport of poly-beta-1,6-N-acetyl-D-glucosamine"	 --> 	CPD0-1192	out	1
+69	TRANS-RXN0-511	L-methionine S-oxide transport	ATP + WATER --> ADP + PROTON + Pi	L-Methionine-sulfoxides	in	1
+70	TRANS-RXN0-239	nitrate:nitrite antiporter	 --> 	"NITRITE,NITRATE"	out	"1,-1"
+71	TRANS-RXN-99	choline:H+ symporter	 <=> 	"CHOLINE,PROTON"	in	"1,1"
+72	TRANS-RXN-40	L-arabinose exporter	 <=> 	"L-ARABINOSE,PROTON"	in	"1,-1"
+73	TRANS-RXN-363	nalidixate efflux pump	 --> 	"CPD-21025,PROTON"	out	"1,1"
+74	TRANS-RXN-348	tetraphenylphosphonium:Na+ antiport	 <=> 	"NA+,CPD-20890"	in	"1,-1"
+75	TRANS-RXN-290	D-cystine ABC transporter	ATP + WATER --> ADP + PROTON + Pi	CPD0-1564	in	1
+76	RXN0-1802	long-chain fatty acid outer membrane porin bacteriophage T2 binding	 --> 	Long-Chain-Fatty-Acids	in	1
+77	TRANS-RXN-242A	L-homoserine lactone:H+ antiport	 <=> 	"CPD-15554,PROTON"	in	"1,-1"
+78	TRANS-RXN0-617	homocystine ABC transporter	ATP + WATER --> ADP + PROTON + Pi	HOMOCYSTINE	in	1
+79	TRANS-RXN0-569	L-amino acid exporter	 --> 	LYS	out	1
+80	TRANS-RXN0-508	djenkolate ABC transporter	ATP + WATER --> ADP + PROTON + Pi	CPD-3740	in	1
+81	ABC-34-RXN	transport of glycerol-3-phosphate	ATP + WATER --> ADP + PROTON + Pi	GLYCEROL-3P	in	1
+82	RXN-8638	transport of a quarternary amine	ATP + WATER --> ADP + PROTON + Pi	Quaternary-Amines	in	1
+83	TRANS-RXN-360	gentamicin efflux pump	 --> 	"Gentamycins,PROTON"	out	"1,1"
+84	RXN0-1721	ferric dihyroxybenzoylserine outer membrane transporter	 --> 	CPD0-2482	in	1
+85	TRANS-RXN0-595	flavin mononucleotide (FMN) export	 --> 	FMN	out	1
+86	TRANS-RXN0-504	maltotetraose ABC transporter	ATP + WATER --> ADP + PROTON + Pi	MALTOTETRAOSE	in	1
+87	ABC-9-RXN	transport of ferric dicitrate	ATP + WATER --> ADP + PROTON + Pi	FERRIC-CITRATE-COMPLEX	in	1
+88	TRANS-RXN0-226	"transport of GlcNAc-1,6-anhMurNAc-L-Ala-gamma-D-Glu-DAP-D-Ala"	 <=> 	"CPD0-1080,PROTON"	in	"1,1"
+89	TRANS-RXN0-162	ABC complex for formation and release of holoCcmE	ATP + WATER --> ADP + PROTON + Pi	TRANS-RXN0-162	out	1
+90	TRANS-RXN-357	enterobactin efflux pump	 --> 	"ENTEROBACTIN,PROTON"	out	"1,1"
+91	TRANS-RXN-3	K+ transporter Kup;K+ transporter TrkH;K+ transporter TrkG	 <=> 	"K+,PROTON"	in	"1,1"
+92	TRANS-RXN0-478	selenate ABC transporter;selenate  ABC transporter	ATP + WATER --> ADP + PROTON + Pi	SELENATE	in	1
+93	ABC-7-RXN	thiosulfate ABC transporter	ATP + WATER --> ADP + PROTON + Pi	ABC-7-RXN	in	1
+94	ABC-26-RXN	transport of proline	ATP + WATER --> ADP + PROTON + Pi	PRO	in	1
+95	TRANS-RXN-354	acriflavine efflux pump;acriflavin efflux pump	 --> 	"CPD-21070,PROTON"	in	"1,1"
+96	TRANS-RXN-298	ferrichrome ABC transporter	ATP + WATER --> ADP + PROTON + Pi	CPD0-2241	in	1
+97	RXN0-1924	cysteine exporter;export of L-cysteine	 --> 	CYS	out	1
+98	TRANS-RXN-194	calmodulin-stimulated calcium-ATPase;plastid envelope ATPase;calcium-transporting ATPase;plasma membrane calcium-transporting ATPase;plasma membrane Ca2+-ATPase	ATP + WATER --> ADP + PROTON + Pi	CA+2	out	1
+99	TRANS-RXN-137	transport of nitrite;nitrite transporter NirC	 --> 	NITRITE	out	1
+100	TRANS-RXN0-576	transport of tellurite	 <=> 	"CPD-4544,NA+"	in	"1,1"
+101	TRANS-RXN-118	proline:Na+ symporter	 <=> 	"PRO,NA+"	in	"1,1"
+102	TRANS-RXN0-453	autoinducer 2 exporter	 <=> 	TRANS-RXN0-453	in	1
+103	TRANS-RXN0-281	acetoacetate transporter	 --> 	3-KETOBUTYRATE	in	1
+104	TRANS-RXN-351	sulfadiazine efflux pump	 --> 	"CPD-20940,PROTON"	out	"1,1"
+105	TRANS-RXN0-573	transport of a glycerophosphodiester	ATP + WATER --> ADP + PROTON + Pi	Glycerophosphodiesters	in	1
+106	RXN66-448	Sodium independent arginine transport;L-arginine exporter;sodium independent arginine plasma membrane transport	 <=> 	ARG	in	1
+107	ABC-4-RXN	L-arginine transporter	ATP + WATER --> ADP + PROTON + Pi	ARG	in	1
+108	ABC-19-RXN	transport of molybdate;molybdate ABC transporter	ATP + WATER --> ADP + PROTON + Pi	CPD-3	in	1
+109	TRANS-RXN0-240	biotin transporter	 --> 	BIOTIN	in	1
+110	TRANS-RXN-364	CCCP efflux pump	 --> 	"CPD-7970,PROTON"	out	"1,1"
+111	TRANS-RXN-349	deoxycholate:Na+ antiport	 <=> 	"DEOXYCHOLATE,NA+"	in	"1,-1"
+112	TRANS-RXN-291	diaminopimelate ABC transporter	ATP + WATER --> ADP + PROTON + Pi	MESO-DIAMINOPIMELATE	in	1
+113	TRANS-RXN-272	flavin adenine dinucleotide (FAD) export	 --> 	FAD	out	1
+114	TRANS-RXN0-491	transport of alpha-D-galactofuranose	ATP + WATER --> ADP + PROTON + Pi	CPD0-2486	in	1
+115	ABC-35-RXN	transport of L-leucine;L-leucine transport	ATP + WATER --> ADP + PROTON + Pi	LEU	in	1
+116	TRANS-RXN0-445	"chitobiose transport;transport of N,N'-diacetyl-chitobiose"	 --> 	CHITOBIOSE	in	1
+117	ABC-15-RXN	transport of L-isoleucine	ATP + WATER --> ADP + PROTON + Pi	ILE	in	1
+118	TRANS-RXN0-235	"2,3-diketo-L-gulonate:Na+ symporter"	 --> 	"CPD-334,NA+"	in	"1,1"
+119	RXN-18029	teichoic acid transporter	ATP + WATER --> ADP + PROTON + Pi	CPD-19309	out	1
+120	TRANS-RXN0-202	methionine transport	ATP + WATER --> ADP + PROTON + Pi	CPD-218	in	1
+121	TRANS-RXN-220	glucosyl-oleandomycin-exporting ATPase	ATP + WATER --> ADP + PROTON + Pi	CPD-13949	out	1
+122	TRANS-RXN-145	water channel AqpZ	 <=> 	WATER	in	1
+123	TRANS-RXN0-505	propionate transporter	 --> 	TRANS-RXN0-505	in	1
+124	ABC-12-RXN	transport of L-glutamine	ATP + WATER --> ADP + PROTON + Pi	GLN	in	1
+125	TRANS-RXN0-181	TatABCE protein export complex	 --> 	General-Protein-Substrates	out	1
+126	TRANS-RXN-283	glycine betaine ABC transporter	ATP + WATER --> ADP + PROTON + Pi	BETAINE	in	1
+127	RXN0-1701	transport of ferrichrome	 --> 	"CPD0-2241,PROTON"	in	"1,-1"
+128	TRANS-RXN-2	K+ transporting ATPase	ATP + WATER --> ADP + PROTON + Pi	K+	in	1
+129	TRANS-RXN0-592	chenodeoxycholate efflux pump	 --> 	"CPD-15189,PROTON"	out	"1,1"
+130	TRANS-RXN0-277	NAD(P) transhydrogenase;pyridine nucleotide transhydrogenase	NADH + NADP --> NAD + NADPH	PROTON	in	1
+131	TRANS-RXN-237	transport of lipopolysaccharide	ATP + WATER --> ADP + PROTON + Pi	Lipopolysaccharides	out	1
+132	TRANS-RXN-214	Na(+)-translocating NADH-quinone reductase	NADH + PROTON + Ubiquinones --> NAD + Ubiquinols	NA+	out	1
+133	3.6.3.16-RXN	arsenite-translocating ATPase;arsenite export	ATP + WATER --> ADP + PROTON + Pi	CPD-763	out	1
+134	RXN-18028	poly(glycerol phosphate) teichoic acid transporter	ATP + WATER --> ADP + PROTON + Pi	Teichoic-P-Gro-Glc	out	1
+135	TRANS-RXN-321	poly(3-O-beta-D-glucopyranosyl-N-acetylgalactosamine 1-phosphate) teichoic acid transporter	 --> 	CPD-19345	out	1
+136	RXN0-5205	Zn2+-exporting ATPase	ATP + WATER --> ADP + PROTON + Pi	ZN+2	out	1
+137	TRANS-RXN-92	SDS efflux pump	 --> 	"CPD-8876,PROTON"	out	"1,1"
+138	TRANS-RXN-121	succinate:H+ symporter;transport of succinate;succinate transporter	 <=> 	"SUC,PROTON"	in	"1,2"
+139	TRANS-RXN0-553	fumarate transporter;transport of fumarate	 <=> 	"FUM,PROTON"	in	"1,2"
+140	TRANS-RXN-178	copper P1B-ATPase;Cu transporting P-type ATPase;copper-transporting ATPase;Cu-ATPase	ATP + WATER --> ADP + PROTON + Pi	CU+2	out	1

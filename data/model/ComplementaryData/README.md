@@ -1,0 +1,1 @@
+`reac_xref.tsv` and `chem_xref.tsv` were downloaded from https://www.metanetx.org/mnxdoc/mnxref.html
