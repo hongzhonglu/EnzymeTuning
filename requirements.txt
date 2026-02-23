@@ -1,0 +1,24 @@
+# --- Core Environment ---
+python_version == 3.9.19
+
+# --- Data Handling & Processing ---
+numpy==1.26.4
+pandas==2.3.1
+scipy==1.13.1
+h5py==3.12.1
+openpyxl>=3.1.2
+
+# --- Metabolic Modeling & Solvers ---
+cobra==0.29.1
+gurobipy==11.0.3
+cplex==22.1.1.0
+
+# --- Machine Learning & GAN Framework ---
+tensorflow==2.16.2
+keras==3.5.0
+scikit-learn==1.6.1
+
+# --- Visualization & Statistical Analysis ---
+matplotlib==3.5.2
+seaborn==0.13.2
+plotly==6.1.1
