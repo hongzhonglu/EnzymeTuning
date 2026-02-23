@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="438da046-444a-4ffb-a792-89d2d96f6e0c" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/gan/Step1_CNlim_foldchange.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/gan/Step1_data_preprocessing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/gan/Step2_gan_training1.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/gan/Step2_gan_training1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/gan/sen_ana.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/gan/sensitivity analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/readme" beforeDir="false" />
-    </list>
+    <list default="true" id="438da046-444a-4ffb-a792-89d2d96f6e0c" name="变更" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,6 +77,7 @@
       <workItem from="1771843720015" duration="520000" />
       <workItem from="1771844243143" duration="818000" />
       <workItem from="1771845065762" duration="311000" />
+      <workItem from="1771845834498" duration="703000" />
     </task>
     <servers />
   </component>

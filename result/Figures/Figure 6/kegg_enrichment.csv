@@ -1,0 +1,78 @@
+Pathway,Pathway_Name,Gene_Count,Pathway_Size,EnrichmentRatio,P_Value,Adjusted_P
+path:sce00564,Glycerophospholipid metabolism,13,40,5.461363636,2.05E-07,8.09E-06
+path:sce00561,Glycerolipid metabolism,10,32,5.251311189,8.49E-06,0.000223575
+path:sce00592,alpha-Linolenic acid metabolism,4,4,16.8041958,1.21E-05,0.000238017
+path:sce00410,beta-Alanine metabolism,5,13,6.463152232,0.000607497,0.007998705
+path:sce00071,Fatty acid degradation,6,20,5.041258741,0.000773714,0.00873191
+path:sce00280,"Valine, leucine and isoleucine degradation",5,14,6.001498501,0.000900091,0.008888399
+path:sce00480,Glutathione metabolism,6,23,4.383703253,0.001736401,0.012869882
+path:sce00240,Pyrimidine metabolism,7,31,3.794495827,0.001792009,0.012869882
+path:sce00230,Purine metabolism,10,57,2.948104527,0.001564609,0.012869882
+path:sce00100,Steroid biosynthesis,5,18,4.667832168,0.003172503,0.020885643
+path:sce00010,Glycolysis / Gluconeogenesis,9,55,2.749777495,0.004392202,0.026691076
+path:sce00565,Ether lipid metabolism,3,8,6.301573427,0.009262272,0.04712512
+path:sce04070,Phosphatidylinositol signaling system,5,23,3.653086044,0.009789522,0.04712512
+path:sce00590,Arachidonic acid metabolism,2,3,11.2027972,0.010140849,0.04712512
+path:sce00330,Arginine and proline metabolism,5,23,3.653086044,0.009789522,0.04712512
+path:sce01200,Carbon metabolism,13,112,1.950487013,0.013765623,0.060415788
+path:sce00053,Ascorbate and aldarate metabolism,3,11,4.582962492,0.023918449,0.099450393
+path:sce00562,Inositol phosphate metabolism,4,21,3.200799201,0.032574678,0.122542835
+path:sce01230,Biosynthesis of amino acids,13,125,1.747636364,0.031710477,0.122542835
+path:sce00640,Propanoate metabolism,3,13,3.877891339,0.037994582,0.136435091
+path:sce00770,Pantothenate and CoA biosynthesis,4,23,2.922468836,0.043971835,0.151033695
+path:sce00340,Histidine metabolism,3,14,3.600899101,0.046302074,0.152410995
+path:sce01210,2-Oxocarboxylic acid metabolism,5,35,2.400599401,0.05333726,0.1684103
+path:sce00670,One carbon pool by folate,3,15,3.360839161,0.055426175,0.1684103
+path:sce00360,Phenylalanine metabolism,2,7,4.801198801,0.060624639,0.177383203
+path:sce00310,Lysine degradation,3,16,3.150786713,0.065336774,0.184343041
+path:sce00900,Terpenoid backbone biosynthesis,3,20,2.520629371,0.112090809,0.285526917
+path:sce00909,Sesquiterpenoid and triterpenoid biosynthesis,1,2,8.402097902,0.11549988,0.285526917
+path:sce00380,Tryptophan metabolism,3,20,2.520629371,0.112090809,0.285526917
+path:sce01040,Biosynthesis of unsaturated fatty acids,2,10,3.360839161,0.115656473,0.285526917
+path:sce00040,Pentose and glucuronate interconversions,2,11,3.055308328,0.1360427,0.316099216
+path:sce00790,Folate biosynthesis,2,11,3.055308328,0.1360427,0.316099216
+path:sce01212,Fatty acid metabolism,3,23,2.191851627,0.153404069,0.335527272
+path:sce00290,"Valine, leucine and isoleucine biosynthesis",2,12,2.800699301,0.157145685,0.335527272
+path:sce00450,Selenocompound metabolism,2,12,2.800699301,0.157145685,0.335527272
+path:sce00332,Carbapenem biosynthesis,1,3,5.601398601,0.168179396,0.349636112
+path:sce00563,Glycosylphosphatidylinositol (GPI)-anchor biosynthesis,3,25,2.016503497,0.183224239,0.361867872
+path:sce00350,Tyrosine metabolism,2,13,2.585260893,0.178809521,0.361867872
+path:sce00600,Sphingolipid metabolism,2,14,2.400599401,0.200894096,0.369084502
+path:sce00680,Methane metabolism,3,26,1.93894567,0.198677741,0.369084502
+path:sce00620,Pyruvate metabolism,5,52,1.615788058,0.194046219,0.369084502
+path:sce04146,Peroxisome,4,40,1.68041958,0.211873831,0.380409833
+path:sce00630,Glyoxylate and dicarboxylate metabolism,3,29,1.738365083,0.24667441,0.431106319
+path:sce00270,Cysteine and methionine metabolism,4,43,1.563181005,0.251023933,0.431106319
+path:sce00220,Arginine biosynthesis,2,17,1.976964212,0.268481183,0.44187528
+path:sce00260,"Glycine, serine and threonine metabolism",3,30,1.68041958,0.263076916,0.44187528
+path:sce00730,Thiamine metabolism,2,18,1.867132867,0.291119636,0.468946372
+path:sce00190,Oxidative phosphorylation,6,76,1.326647037,0.296801501,0.468946372
+path:sce00760,Nicotinate and nicotinamide metabolism,2,20,1.68041958,0.336070645,0.520580019
+path:sce04145,Phagosome,3,35,1.44035964,0.346385383,0.526239331
+path:sce04136,Autophagy - other,2,23,1.461234418,0.401760912,0.598851171
+path:sce00650,Butanoate metabolism,1,9,1.867132867,0.424852376,0.610242504
+path:sce00460,Cyanoamino acid metabolism,1,9,1.867132867,0.424852376,0.610242504
+path:sce00300,Lysine biosynthesis,1,12,1.40034965,0.521921978,0.736282791
+path:sce00061,Fatty acid biosynthesis,1,13,1.292630446,0.550514683,0.736609113
+path:sce00750,Vitamin B6 metabolism,1,13,1.292630446,0.550514683,0.736609113
+path:sce00510,N-Glycan biosynthesis,2,30,1.12027972,0.54139604,0.736609113
+path:sce00020,Citrate cycle (TCA cycle),2,31,1.084141665,0.55944996,0.736609113
+path:sce00250,"Alanine, aspartate and glutamate metabolism",2,32,1.050262238,0.576996715,0.747258041
+path:sce00520,Amino sugar and nucleotide sugar metabolism,2,34,0.988482106,0.610555171,0.765616801
+path:sce00920,Sulfur metabolism,1,15,1.12027972,0.602703917,0.765616801
+path:sce04138,Autophagy - yeast,5,90,0.933566434,0.630455633,0.766246077
+path:sce00740,Riboflavin metabolism,1,16,1.050262238,0.626495098,0.766246077
+path:sce00400,"Phenylalanine, tyrosine and tryptophan biosynthesis",1,17,0.988482106,0.648870968,0.776678886
+path:sce02010,ABC transporters,1,18,0.933566434,0.669915164,0.789899969
+path:sce00051,Fructose and mannose metabolism,1,23,0.730617209,0.757760254,0.880339118
+path:sce00052,Galactose metabolism,1,24,0.700174825,0.772314995,0.884244704
+path:sce00030,Pentose phosphate pathway,1,28,0.60014985,0.822346512,0.928076778
+path:sce00513,Various types of N-glycan biosynthesis,1,31,0.542070832,0.852554917,0.948617442
+path:sce04139,Mitophagy - yeast,1,40,0.420104895,0.915828543,0.983146767
+path:sce00500,Starch and sucrose metabolism,1,41,0.409858434,0.920922288,0.983146767
+path:sce04113,Meiosis - yeast,5,133,0.631736684,0.908765846,0.983146767
+path:sce04011,sceK signaling pathway - yeast,2,114,0.294810453,0.99338648,0.999999937
+path:sce03018,RNA degradation,1,64,0.262565559,0.98132688,0.999999937
+path:sce04141,Protein processing in endoplasmic reticulum,1,93,0.180690277,0.997037027,0.999999937
+path:sce04144,Endocytosis,1,79,0.212711339,0.992772741,0.999999937
+path:sce00970,Aminoacyl-tRNA biosynthesis,3,338,0.149149667,0.999999937,0.999999937

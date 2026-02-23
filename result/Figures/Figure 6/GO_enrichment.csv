@@ -1,0 +1,291 @@
+0,protein,gene,GO-slim mapper process term,Index,Gene
+YDR234W,P49367,YDR234W, cellular amino acid metabolic process,Unnamed: 25,LYS4
+YHR208W,P38891,YHR208W,,,
+YLR044C,P06169,YLR044C, generation of precursor metabolites and energy,Unnamed: 57,PDC1
+YLR044C,P06169,YLR044C, monocarboxylic acid metabolic process,Unnamed: 60,PDC1
+YLR044C,P06169,YLR044C, carbohydrate metabolic process,Unnamed: 62,PDC1
+YLR044C,P06169,YLR044C, cofactor metabolic process,Unnamed: 70,PDC1
+YLR044C,P06169,YLR044C, nucleobase-containing small molecule metabolic process,Unnamed: 84,PDC1
+YLR044C,P06169,YLR044C, cellular amino acid metabolic process,Unnamed: 98,PDC1
+YGR087C,P26263,YGR087C, cellular amino acid metabolic process,Unnamed: 160,PDC6
+YGR019W,P17649,YGR019W, monocarboxylic acid metabolic process,Unnamed: 36,UGA1
+YGR019W,P17649,YGR019W, cellular amino acid metabolic process,Unnamed: 57,UGA1
+YDR017C,Q12494,YDR017C, carbohydrate metabolic process,Unnamed: 107,KCS1
+YOR163W,Q99321,YOR163W, carbohydrate metabolic process,Unnamed: 147,DDP1
+YOR163W,Q99321,YOR163W, nucleobase-containing small molecule metabolic process,Unnamed: 171,DDP1
+YOL140W,P18544,YOL140W, cellular amino acid metabolic process,Unnamed: 128,ARG8
+YPL148C,Q12036,YPL148C,,,
+YGL205W,P13711,YGL205W, monocarboxylic acid metabolic process,Unnamed: 34,POX1
+YGL205W,P13711,YGL205W, lipid metabolic process,Unnamed: 35,POX1
+YCR048W,P25628,YCR048W,,,
+YJR105W,P47143,YJR105W, nucleobase-containing small molecule metabolic process,Unnamed: 71,ADO1
+YDR226W,P07170,YDR226W, DNA replication,Unnamed: 14,ADK1
+YDR226W,P07170,YDR226W, nucleobase-containing small molecule metabolic process,Unnamed: 22,ADK1
+YIR029W,P25335,YIR029W, other,Unnamed: 47,DAL2
+YBR299W,P38158,YBR299W, oligosaccharide metabolic process,Unnamed: 3,MAL32
+YBR299W,P38158,YBR299W, carbohydrate metabolic process,Unnamed: 8,MAL32
+YDR341C,Q05506,YDR341C, tRNA aminoacylation for protein translation,Unnamed: 6,YDR341C
+YDR341C,Q05506,YDR341C, cellular amino acid metabolic process,Unnamed: 29,YDR341C
+YLR027C,P23542,YLR027C, monocarboxylic acid metabolic process,Unnamed: 59,AAT2
+YLR027C,P23542,YLR027C, cellular amino acid metabolic process,Unnamed: 97,AAT2
+YDR322C-A,P81449,YDR322C-A,,,
+YBR002C,P35196,YBR002C, lipid metabolic process,Unnamed: 2,RER2
+YBR002C,P35196,YBR002C, protein glycosylation,Unnamed: 2,RER2
+YBR002C,P35196,YBR002C, Golgi vesicle transport,Unnamed: 4,RER2
+YMR101C,Q03175,YMR101C,,,
+YBL039C,P28274,YBL039C, lipid metabolic process,Proteins,URA7
+YBL039C,P28274,YBL039C, nucleobase-containing small molecule metabolic process,Unnamed: 5,URA7
+YJR130C,P47164,YJR130C, cellular amino acid metabolic process,Unnamed: 167,STR2
+YNL256W,P53848,YNL256W, cofactor metabolic process,Unnamed: 96,FOL1
+YGR254W,P00924,YGR254W, vacuole organization,Unnamed: 13,ENO1
+YGR254W,P00924,YGR254W, organelle fusion,Unnamed: 14,ENO1
+YGR254W,P00924,YGR254W, membrane fusion,Unnamed: 14,ENO1
+YGR254W,P00924,YGR254W, regulation of organelle organization,Unnamed: 32,ENO1
+YGR254W,P00924,YGR254W, generation of precursor metabolites and energy,Unnamed: 36,ENO1
+YGR254W,P00924,YGR254W, carbohydrate metabolic process,Unnamed: 39,ENO1
+YGR254W,P00924,YGR254W, monocarboxylic acid metabolic process,Unnamed: 41,ENO1
+YGR254W,P00924,YGR254W, cofactor metabolic process,Unnamed: 44,ENO1
+YGR254W,P00924,YGR254W, nucleobase-containing small molecule metabolic process,Unnamed: 48,ENO1
+YHR116W,P38824,YHR116W, mitochondrion organization,Unnamed: 158,COX23
+YHR116W,P38824,YHR116W, protein complex biogenesis,Unnamed: 191,COX23
+YDR529C,P00128,YDR529C, cellular respiration,Unnamed: 12,QCR7
+YDR529C,P00128,YDR529C, mitochondrion organization,Unnamed: 21,QCR7
+YDR529C,P00128,YDR529C, generation of precursor metabolites and energy,Unnamed: 21,QCR7
+YDR529C,P00128,YDR529C, nucleobase-containing small molecule metabolic process,Unnamed: 30,QCR7
+YDR529C,P00128,YDR529C, protein complex biogenesis,Unnamed: 32,QCR7
+YJR048W,P00044,YJR048W, cellular respiration,Unnamed: 22,CYC1
+YJR048W,P00044,YJR048W, generation of precursor metabolites and energy,Unnamed: 44,CYC1
+YJR048W,P00044,YJR048W, nucleobase-containing small molecule metabolic process,Unnamed: 67,CYC1
+YDR300C,P32264,YDR300C, cellular amino acid metabolic process,Unnamed: 27,PRO1
+YPL091W,P41921,YPL091W, response to oxidative stress,Unnamed: 51,GLR1
+YPL091W,P41921,YPL091W, response to chemical,Unnamed: 143,GLR1
+YDR513W,P17695,YDR513W, response to oxidative stress,Unnamed: 13,GRX2
+YDR513W,P17695,YDR513W, response to chemical,Unnamed: 32,GRX2
+YGR192C,P00359,YGR192C, generation of precursor metabolites and energy,Unnamed: 33,TDH3
+YGR192C,P00359,YGR192C, carbohydrate metabolic process,Unnamed: 36,TDH3
+YGR192C,P00359,YGR192C, monocarboxylic acid metabolic process,Unnamed: 38,TDH3
+YGR192C,P00359,YGR192C, cofactor metabolic process,Unnamed: 39,TDH3
+YGR192C,P00359,YGR192C, nucleobase-containing small molecule metabolic process,Unnamed: 44,TDH3
+YOL059W,P41911,YOL059W, carbohydrate metabolic process,Unnamed: 81,GPD2
+YOL059W,P41911,YOL059W, cofactor metabolic process,Unnamed: 100,GPD2
+YOL059W,P41911,YOL059W, nucleobase-containing small molecule metabolic process,Unnamed: 113,GPD2
+YLR058C,P37291,YLR058C, other,Unnamed: 58,SHM2
+YAL044C,P39726,YAL044C, cellular amino acid metabolic process,Unnamed: 146,GCV3
+YCL052C,P25580,YCL052C, protein lipidation,Unnamed: 9,PBN1
+YCL052C,P25580,YCL052C, protein maturation,Unnamed: 28,PBN1
+YCL052C,P25580,YCL052C, proteolysis involved in cellular protein catabolic process,Unnamed: 100,PBN1
+YCL052C,P25580,YCL052C, lipid metabolic process,Unnamed: 131,PBN1
+YCL052C,P25580,YCL052C, response to chemical,Unnamed: 166,PBN1
+YJR013W,P47088,YJR013W, protein lipidation,Unnamed: 21,GPI14
+YJR013W,P47088,YJR013W, cell wall organization or biogenesis,Unnamed: 95,GPI14
+YJR013W,P47088,YJR013W, lipid metabolic process,Unnamed: 182,GPI14
+YGR267C,P51601,YGR267C, cofactor metabolic process,Unnamed: 46,FOL2
+YDR454C,P15454,YDR454C, nucleobase-containing small molecule metabolic process,Unnamed: 28,GUK1
+YCL030C,P00815,YCL030C, cellular amino acid metabolic process,Unnamed: 12,HIS4
+YBR034C,P38074,YBR034C, protein alkylation,Unnamed: 19,HMT1
+YBR034C,P38074,YBR034C, DNA-templated transcription& termination,Unnamed: 20,HMT1
+YBR034C,P38074,YBR034C, DNA-templated transcription& elongation,Unnamed: 47,HMT1
+YBR034C,P38074,YBR034C, peptidyl-amino acid modification,Unnamed: 59,HMT1
+YBR034C,P38074,YBR034C, nucleobase-containing compound transport,Unnamed: 77,HMT1
+YBR034C,P38074,YBR034C, nuclear transport,Unnamed: 111,HMT1
+YBR034C,P38074,YBR034C, transcription from RNA polymerase II promoter,Unnamed: 148,HMT1
+YDR173C,P07250,YDR173C, lipid metabolic process,Unnamed: 142,ARG82
+YDR173C,P07250,YDR173C, cellular amino acid metabolic process,Unnamed: 154,ARG82
+YDR173C,P07250,YDR173C, transcription from RNA polymerase II promoter,Unnamed: 174,ARG82
+YER019W,P40015,YER019W, response to osmotic stress,Unnamed: 36,ISC1
+YER019W,P40015,YER019W, lipid metabolic process,Unnamed: 148,ISC1
+YNL009W,P53982,YNL009W, monocarboxylic acid metabolic process,Unnamed: 115,IDP3
+YNL009W,P53982,YNL009W, cofactor metabolic process,Unnamed: 152,IDP3
+YNL009W,P53982,YNL009W, nucleobase-containing small molecule metabolic process,Unnamed: 166,IDP3
+YNL009W,P53982,YNL009W, lipid metabolic process,Unnamed: 216,IDP3
+YPL117C,P15496,YPL117C, lipid metabolic process,Unnamed: 109,IDI1
+YCL064C,P25379,YCL064C,,,
+YJR159W,P35497,YJR159W,,,
+YPL160W,P26637,YPL160W, tRNA aminoacylation for protein translation,Unnamed: 25,CDC60
+YPL160W,P26637,YPL160W, signaling,Unnamed: 59,CDC60
+YPL160W,P26637,YPL160W, cellular amino acid metabolic process,Unnamed: 139,CDC60
+YNL117W,P30952,YNL117W, monocarboxylic acid metabolic process,Unnamed: 69,MLS1
+YNL117W,P30952,YNL117W, carbohydrate metabolic process,Unnamed: 77,MLS1
+YBL013W,P32785,YBL013W, RNA modification,Unnamed: 44,FMT1
+YBL013W,P32785,YBL013W, tRNA processing,Unnamed: 46,FMT1
+YBR084W,P09440,YBR084W, vitamin metabolic process,Proteins,MIS1
+YBR084W,P09440,YBR084W, cofactor metabolic process,Unnamed: 6,MIS1
+YBR036C,P35206,YBR036C, cellular ion homeostasis,Unnamed: 47,CSG2
+YBR036C,P35206,YBR036C, lipid metabolic process,Unnamed: 126,CSG2
+YBR161W,P38287,YBR161W,,,
+YOR209C,P39683,YOR209C, chromatin organization,Unnamed: 88,NPT1
+YOR209C,P39683,YOR209C, cofactor metabolic process,Unnamed: 106,NPT1
+YOR209C,P39683,YOR209C, nucleobase-containing small molecule metabolic process,Unnamed: 120,NPT1
+YML106W,P13298,YML106W, nucleobase-containing small molecule metabolic process,Unnamed: 97,URA5
+YMR271C,P30402,YMR271C, nucleobase-containing small molecule metabolic process,Unnamed: 164,URA10
+YBL068W,P38063,YBL068W,,,
+YLR209C,Q05788,YLR209C, cofactor metabolic process,Unnamed: 76,PNP1
+YLR209C,Q05788,YLR209C, nucleobase-containing small molecule metabolic process,Unnamed: 86,PNP1
+YBR035C,P38075,YBR035C, cofactor metabolic process,Unnamed: 5,PDX3
+YLR134W,P16467,YLR134W, generation of precursor metabolites and energy,Unnamed: 58,PDC5
+YLR134W,P16467,YLR134W, monocarboxylic acid metabolic process,Unnamed: 61,PDC5
+YLR134W,P16467,YLR134W, carbohydrate metabolic process,Unnamed: 63,PDC5
+YLR134W,P16467,YLR134W, cofactor metabolic process,Unnamed: 71,PDC5
+YLR134W,P16467,YLR134W, nucleobase-containing small molecule metabolic process,Unnamed: 85,PDC5
+YLR134W,P16467,YLR134W, cellular amino acid metabolic process,Unnamed: 101,PDC5
+YJL026W,P09938,YJL026W, nucleobase-containing small molecule metabolic process,Unnamed: 61,RNR2
+YIL066C,P21672,YIL066C,,,
+YER070W,P21524,YER070W, nucleobase-containing small molecule metabolic process,Unnamed: 35,RNR1
+YEL047C,P32614,YEL047C, response to chemical,Unnamed: 34,FRD1
+YOR171C,Q12246,YOR171C, signaling,Unnamed: 55,LCB4
+YOR171C,Q12246,YOR171C, lipid metabolic process,Unnamed: 105,LCB4
+YGR175C,P32476,YGR175C, lipid metabolic process,Unnamed: 39,ERG1
+YKL141W,P33421,YKL141W, cellular respiration,Unnamed: 25,SDH3
+YKL141W,P33421,YKL141W, generation of precursor metabolites and energy,Unnamed: 50,SDH3
+YKL141W,P33421,YKL141W, transmembrane transport,Unnamed: 63,SDH3
+YKL141W,P33421,YKL141W, mitochondrion organization,Unnamed: 67,SDH3
+YKL141W,P33421,YKL141W, protein targeting,Unnamed: 79,SDH3
+YBR092C,P24031,YBR092C,,,
+YDR353W,P29509,YDR353W, response to oxidative stress,Unnamed: 11,TRR1
+YDR353W,P29509,YDR353W, response to chemical,Unnamed: 28,TRR1
+YCR083W,P25372,YCR083W, response to oxidative stress,Unnamed: 5,TRX3
+YCR083W,P25372,YCR083W, response to chemical,Unnamed: 10,TRX3
+YDL103C,P43123,YDL103C, other,Unnamed: 16,QRI1
+YNR012W,P27515,YNR012W, other,Unnamed: 151,URK1
+YNL292W,P48567,YNL292W, RNA modification,Unnamed: 32,PUS4
+YNL292W,P48567,YNL292W, tRNA processing,Unnamed: 34,PUS4
+YMR170C,P47771,YMR170C, cellular amino acid metabolic process,Unnamed: 175,ALD2
+YER015W,P39518,YER015W, monocarboxylic acid metabolic process,Unnamed: 97,FAA2
+YER015W,P39518,YER015W, lipid metabolic process,Unnamed: 147,FAA2
+YKR009C,Q02207,YKR009C, monocarboxylic acid metabolic process,Unnamed: 57,FOX2
+YKR009C,Q02207,YKR009C, lipid metabolic process,Unnamed: 65,FOX2
+YIL160C,P27796,YIL160C, monocarboxylic acid metabolic process,Unnamed: 101,POT1
+YIL160C,P27796,YIL160C, lipid metabolic process,Unnamed: 176,POT1
+YIL124W,P40471,YIL124W, lipid metabolic process,Unnamed: 50,AYR1
+YDR503C,Q04396,YDR503C,,,
+YOR245C,Q08650,YOR245C,,,
+YNR019W,P53629,YNR019W, lipid metabolic process,Unnamed: 97,ARE2
+YPR113W,P06197,YPR113W, lipid metabolic process,Unnamed: 116,PIS1
+YGR170W,P53037,YGR170W, lipid metabolic process,Unnamed: 166,PSD2
+YOR311C,Q12382,YOR311C,,,
+YCL004W,P25578,YCL004W, lipid metabolic process,Unnamed: 130,PGS1
+YDL142C,Q07560,YDL142C, cellular ion homeostasis,Unnamed: 51,CRD1
+YDL142C,Q07560,YDL142C, lipid metabolic process,Unnamed: 136,CRD1
+YDL142C,Q07560,YDL142C, mitochondrion organization,Unnamed: 138,CRD1
+YDL142C,Q07560,YDL142C, protein targeting,Unnamed: 168,CRD1
+YPR140W,Q06510,YPR140W, cellular respiration,Unnamed: 69,TAZ1
+YPR140W,Q06510,YPR140W, generation of precursor metabolites and energy,Unnamed: 125,TAZ1
+YPR140W,Q06510,YPR140W, nucleobase-containing small molecule metabolic process,Unnamed: 174,TAZ1
+YPR140W,Q06510,YPR140W, mitochondrion organization,Unnamed: 218,TAZ1
+YPR140W,Q06510,YPR140W, protein complex biogenesis,Unnamed: 250,TAZ1
+YPR140W,Q06510,YPR140W, lipid metabolic process,Unnamed: 250,TAZ1
+YBR097W,P22219,YBR097W, organelle inheritance,Unnamed: 30,VPS15
+YBR097W,P22219,YBR097W, vacuole organization,Unnamed: 34,VPS15
+YBR097W,P22219,YBR097W, endosomal transport,Unnamed: 47,VPS15
+YBR097W,P22219,YBR097W, DNA-templated transcription& elongation,Unnamed: 48,VPS15
+YBR097W,P22219,YBR097W, protein phosphorylation,Unnamed: 50,VPS15
+YBR097W,P22219,YBR097W, signaling,Unnamed: 68,VPS15
+YBR097W,P22219,YBR097W, transcription from RNA polymerase II promoter,Unnamed: 151,VPS15
+YBR097W,P22219,YBR097W, protein targeting,Unnamed: 163,VPS15
+YLR240W,P22543,YLR240W, DNA-templated transcription& elongation,Unnamed: 74,VPS34
+YLR240W,P22543,YLR240W, protein phosphorylation,Unnamed: 119,VPS34
+YLR240W,P22543,YLR240W, lipid metabolic process,Unnamed: 200,VPS34
+YLR240W,P22543,YLR240W, transcription from RNA polymerase II promoter,Unnamed: 284,VPS34
+YDR208W,P38994,YDR208W, sporulation,Unnamed: 42,MSS4
+YDR208W,P38994,YDR208W, meiotic cell cycle,Unnamed: 77,MSS4
+YDR208W,P38994,YDR208W, lipid metabolic process,Unnamed: 143,MSS4
+YNR008W,P40345,YNR008W, lipid metabolic process,Unnamed: 95,LRO1
+YMR008C,P39105,YMR008C, lipid metabolic process,Unnamed: 80,PLB1
+YDR284C,Q05521,YDR284C, lipid metabolic process,Unnamed: 21,DPP1
+YKR089C,P36165,YKR089C, cell budding,Unnamed: 43,TGL4
+YKR089C,P36165,YKR089C, lipid metabolic process,Unnamed: 192,TGL4
+YBR204C,P38139,YBR204C, other,Unnamed: 87,LDH1
+YOR081C,Q12043,YOR081C, lipid metabolic process,Unnamed: 234,TGL5
+YDR058C,P54857,YDR058C,,,
+YHR039C-A,P48836,YHR039C-A, cellular ion homeostasis,Unnamed: 70,VMA10
+YOR332W,P22203,YOR332W, cellular ion homeostasis,Unnamed: 44,VMA4
+YMR056C,P04710,YMR056C, cellular respiration,Unnamed: 63,AAC1
+YMR056C,P04710,YMR056C, generation of precursor metabolites and energy,Unnamed: 113,AAC1
+YMR056C,P04710,YMR056C, cofactor metabolic process,Unnamed: 149,AAC1
+YPR138C,P53390,YPR138C,,,
+YBR291C,P38152,YBR291C, ion transport,Unnamed: 11,CTP1
+YBR291C,P38152,YBR291C, transmembrane transport,Unnamed: 13,CTP1
+YDR343C,P39003,YDR343C,,,
+YFL011W,P43581,YFL011W,,,
+YOR011W,Q08409,YOR011W,,,
+YDL247W,P0CD99,YDL247W,,,
+YHR094C,P32465,YHR094C, carbohydrate transport,Unnamed: 7,HXT1
+YPL265W,P53388,YPL265W, amino acid transport,Unnamed: 13,DIP5
+YPL265W,P53388,YPL265W, ion transport,Unnamed: 88,DIP5
+YKR039W,P19145,YKR039W, amino acid transport,Unnamed: 7,GAP1
+YKR039W,P19145,YKR039W, ion transport,Unnamed: 48,GAP1
+YCL025C,P25376,YCL025C, amino acid transport,Unnamed: 17,AGP1
+YCL025C,P25376,YCL025C, ion transport,Unnamed: 105,AGP1
+YCL025C,P25376,YCL025C, transmembrane transport,Unnamed: 118,AGP1
+YKL146W,P36062,YKL146W, amino acid transport,Unnamed: 6,AVT3
+YKL146W,P36062,YKL146W, ion transport,Unnamed: 45,AVT3
+YKL146W,P36062,YKL146W, transmembrane transport,Unnamed: 64,AVT3
+YDR508C,P48813,YDR508C, amino acid transport,Unnamed: 23,GNP1
+YDR508C,P48813,YDR508C, ion transport,Unnamed: 120,GNP1
+YDR508C,P48813,YDR508C, transmembrane transport,Unnamed: 134,GNP1
+YHL016C,P33413,YHL016C, ion transport,Unnamed: 132,DUR3
+YPL274W,Q08986,YPL274W, ion transport,Unnamed: 90,SAM3
+YOR273C,Q12256,YOR273C, ion transport,Unnamed: 81,TPO4
+YDR072C,P38954,YDR072C, lipid metabolic process,Unnamed: 138,IPT1
+YDR367W,Q06346,YDR367W, lipid metabolic process,Unnamed: 23,KEI1
+YKL004W,P36107,YKL004W,,,
+YIL048W,P40527,YIL048W, lipid transport,Unnamed: 40,NEO1
+YIL048W,P40527,YIL048W, vacuole organization,Unnamed: 52,NEO1
+YIL048W,P40527,YIL048W, endocytosis,Unnamed: 61,NEO1
+YIL048W,P40527,YIL048W, Golgi vesicle transport,Unnamed: 133,NEO1
+YIL048W,P40527,YIL048W, ion transport,Unnamed: 137,NEO1
+YAL026C,P39524,YAL026C, lipid transport,Unnamed: 25,DRS2
+YAL026C,P39524,YAL026C, conjugation,Unnamed: 30,DRS2
+YAL026C,P39524,YAL026C, protein glycosylation,Unnamed: 34,DRS2
+YAL026C,P39524,YAL026C, ribosome assembly,Unnamed: 36,DRS2
+YAL026C,P39524,YAL026C, endocytosis,Unnamed: 42,DRS2
+YAL026C,P39524,YAL026C, endosomal transport,Unnamed: 46,DRS2
+YAL026C,P39524,YAL026C, organelle assembly,Unnamed: 61,DRS2
+YAL026C,P39524,YAL026C, ribosomal small subunit biogenesis,Unnamed: 86,DRS2
+YAL026C,P39524,YAL026C, ion transport,Unnamed: 99,DRS2
+YAL026C,P39524,YAL026C, Golgi vesicle transport,Unnamed: 102,DRS2
+YAL026C,P39524,YAL026C, response to chemical,Unnamed: 150,DRS2
+YBR241C,P38142,YBR241C, transmembrane transport,Unnamed: 116,YBR241C
+YBR243C,P07286,YBR243C, cellular respiration,Unnamed: 51,ALG7
+YBR243C,P07286,YBR243C, generation of precursor metabolites and energy,Unnamed: 90,ALG7
+YNL331C,P42884,YNL331C, other,Unnamed: 150,AAD14
+YCR107W,P25612,YCR107W,,,
+YHR043C,P38773,YHR043C, carbohydrate metabolic process,Unnamed: 123,DOG2
+YHR119W,P38827,YHR119W, protein alkylation,Unnamed: 28,SET1
+YHR119W,P38827,YHR119W, telomere organization,Unnamed: 36,SET1
+YHR119W,P38827,YHR119W, protein acylation,Unnamed: 38,SET1
+YHR119W,P38827,YHR119W, sporulation,Unnamed: 49,SET1
+YHR119W,P38827,YHR119W, regulation of protein modification process,Unnamed: 52,SET1
+YHR119W,P38827,YHR119W, histone modification,Unnamed: 64,SET1
+YHR119W,P38827,YHR119W, peptidyl-amino acid modification,Unnamed: 85,SET1
+YHR119W,P38827,YHR119W, regulation of cell cycle,Unnamed: 91,SET1
+YHR119W,P38827,YHR119W, meiotic cell cycle,Unnamed: 97,SET1
+YHR119W,P38827,YHR119W, organelle fission,Unnamed: 120,SET1
+YHR119W,P38827,YHR119W, regulation of organelle organization,Unnamed: 134,SET1
+YHR119W,P38827,YHR119W, chromatin organization,Unnamed: 176,SET1
+YHR119W,P38827,YHR119W, transcription from RNA polymerase II promoter,Unnamed: 235,SET1
+YML125C,Q12746,YML125C, other,Unnamed: 62,PGA3
+YMR251W,Q04806,YMR251W,,,
+YKR076W,P36156,YKR076W, other,Unnamed: 128,ECM4
+YFR044C,P43616,YFR044C, other,Unnamed: 31,DUG1
+YDR038C,Q12691,YDR038C,,,
+YDR242W,P22580,YDR242W, biological process unknown ,Unnamed: 207,AMD2
+YPL175W,P32363,YPL175W, protein lipidation,Unnamed: 34,SPT14
+YPL175W,P32363,YPL175W, lipid metabolic process,Unnamed: 247,SPT14
+YGL167C,P13586,YGL167C, exocytosis,Unnamed: 6,PMR1
+YGL167C,P13586,YGL167C, cellular ion homeostasis,Unnamed: 16,PMR1
+YGL167C,P13586,YGL167C, ion transport,Unnamed: 24,PMR1
+YJR069C,P47119,YJR069C, nucleobase-containing small molecule metabolic process,Unnamed: 68,HAM1
+YJR131W,P32906,YJR131W, proteolysis involved in cellular protein catabolic process,Unnamed: 142,MNS1
+YJR131W,P32906,YJR131W, response to chemical,Unnamed: 234,MNS1
+YLL051C,Q12473,YLL051C,,,
+YMR110C,Q04458,YMR110C, lipid metabolic process,Unnamed: 83,HFD1
+YMR110C,Q04458,YMR110C, cofactor metabolic process,Unnamed: 85,HFD1
+YMR110C,Q04458,YMR110C, cellular amino acid metabolic process,Unnamed: 113,HFD1
+YMR011W,P23585,YMR011W, carbohydrate transport,Unnamed: 8,HXT2
+YJR152W,P15365,YJR152W, ion transport,Unnamed: 39,DAL5
+YPL095C,Q02891,YPL095C, monocarboxylic acid metabolic process,Unnamed: 123,EEB1
+YPL095C,Q02891,YPL095C, lipid metabolic process,Unnamed: 244,EEB1
+YMR318C,Q04894,YMR318C, other,Unnamed: 66,ADH6
+YDL168W,P32771,YDL168W, cellular amino acid metabolic process,Unnamed: 17,SFA1
+YHR096C,P38695,YHR096C, carbohydrate transport,Unnamed: 13,HXT5
