@@ -15,7 +15,7 @@ from src.GAN import CGAN
 import helper as hp
 
 def main():
-    fold = [2 , 5 , 10 , 50 , 100]
+    fold = [2 , 5 , 10 , 50 , 100] #different range of kcat set based on the fold change of predicted/measured protein abundances
     for m in range (len (fold)):
         # Training hyperparameters
         latent_dim = 127      # Length of noise vector

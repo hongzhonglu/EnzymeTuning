@@ -17,7 +17,7 @@ def main() :
     # parameter determination
     for strain,prot in strains.items() :
         print(strain+" start!")
-        number_of_models = 10000  # No of kcat samples
+        number_of_models = 1000  # No of kcat samples
         enzyme_preparation = pd.read_csv (f'data/other_yeast/kcat_all_{strain}.csv')
         rxnlist = enzyme_preparation.drop ([ 'kcat_value1' ] , axis=1 , inplace=False)
         parameter_set_dim = len (enzyme_preparation)  # No of kcat parameters in model
@@ -158,7 +158,7 @@ def main() :
 
         # toy_data = pd.DataFrame (columns=['error', 'corr', 'pvalue','number','RMSE'])
 
-        num_cpus = 256
+        num_cpus = 16
         print (num_cpus)
         eModel.objective = "r_2111"
         eModel.objective_direction = 'max'

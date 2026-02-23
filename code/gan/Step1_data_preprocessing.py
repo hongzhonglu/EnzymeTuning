@@ -15,15 +15,10 @@ import pickle
 def main():
 
     # load the enzyme_id
-    #data = pd.read_csv ('data/RMSE2.csv')
-    #enzyme_preparation = data[data['ERROR'] < 0.05]
     enzyme_preparation = pd.read_csv ('data/kcat_merge_error_50.csv')
-    #enzyme_preparation = pd.read_csv ('data/kcat_merge_sen_50.csv')
-    #enzyme_preparation = pd.read_csv ('data/kcat_merge_error_100.csv')
-    #enzyme_preparation = pd.read_csv ('data/kcat_merge_sen_100.csv')
 
     # parameter determination
-    number_of_models = 10000  # No of kcat samples
+    number_of_models = 1000  # No of kcat samples
     #parameter_set_dim = 1151  # No of kcat parameters in model
     parameter_set_dim = len(enzyme_preparation)  # No of kcat parameters in model
 
@@ -132,7 +127,7 @@ def main():
 
     toy_data = pd.DataFrame (columns=['error' , 'corr' , 'ss'])
 
-    num_cpus = 128
+    num_cpus = 16
     print (num_cpus)
     with Pool (processes=num_cpus) as pool:
         args = [(

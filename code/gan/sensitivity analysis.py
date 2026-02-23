@@ -93,17 +93,19 @@ def main() :
     #define the problem (kcat)
     num_kcats = len(kcat_list)
     print(num_kcats)
+    lower_b = 0.1
+    upper_b = 2
     problem = {
         'num_vars' : num_kcats,
         'names' : kcat_list['name'].tolist(),
-        'bounds' : [[0.1*kcat,2*kcat] for kcat in kcat_list['kcat']]
+        'bounds' : [[lower_b*kcat,upper_b*kcat] for kcat in kcat_list['kcat']]  #change the range of random sampling
     }
 
     #sampling
-    param_values = sobol.sample(problem,2) #num_kcats*2*16 (2^n)
+    param_values = sobol.sample(problem,2) #(2^n)
 
     #run the model
-    num_cpus = 10
+    num_cpus = 16
     pool = Pool(processes=num_cpus)
 
     results = pool.starmap(model_execution, [(params, kcat_list, model, ecModel, growthdata_N, rxn2block) for params in param_values])
@@ -131,7 +133,7 @@ def main() :
         'S1': Si['S1'],
         'ST': Si['ST']
     })
-    df_Si.to_csv("result/sensitivity_analysis2_100.csv", index=False)
+    df_Si.to_csv(f"result/sensitivity_analysis{lower_b}_{upper_b}.csv", index=False)
     print(df_Si)
 
 if __name__ == '__main__':

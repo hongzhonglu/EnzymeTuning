@@ -15,7 +15,7 @@ import pickle
 
 def main() :
     # parameter determination
-    number_of_models = 10000  # No of kcat samples
+    number_of_models = 1000  # No of kcat samples
     # enzyme_preparation = pd.read_csv ('data/kcat_all.csv')
     enzyme_preparation = pd.read_csv( 'data/kcat_merge_sen_50.csv' )
     rxnlist = enzyme_preparation.drop (['kcat_value1'], axis=1, inplace=False)

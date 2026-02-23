@@ -17,9 +17,6 @@ import helper as hp
 def main():
     # load the enzyme_id
     enzyme_preparation = pd.read_csv (f'gan_input/kcat_merge_sen_50.csv')
-    #enzyme_preparation = pd.read_csv (f'gan_input/kcat_merge_error_100.csv')
-    #enzyme_preparation = pd.read_csv (f'gan_input/kcat_merge_sen_50.csv')
-    #enzyme_preparation = pd.read_csv (f'gan_input/kcat_merge_sen_100.csv')
     rxn_name = enzyme_preparation.drop (['kcat_value1'] , axis=1 , inplace=False)
 
     # parameter determination
@@ -112,7 +109,7 @@ def main():
 
     start = time.time ()
     print ('\nSTARTING PREPROCESSING')
-    for j in range (3):
+    for j in range (3): #10, 30, 50, test for 2 or 3
         all_data = np.empty ([number_of_models , parameter_set_dim])
         all_stabilities = np.empty ([number_of_models])
 

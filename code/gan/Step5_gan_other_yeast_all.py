@@ -15,7 +15,7 @@ from src.GAN import CGAN
 import helper as hp
 
 def main():
-    strains = {'yli': 178.5 } #'kma': 325,'kla': 245
+    strains = {'yli': 178.5 } #'kma': 325,'kla': 245 the protein fraction of the strain
     # parameter determination
     for strain,prot in strains.items():
         print( strain + " start!" )
@@ -161,7 +161,7 @@ def main():
         print(parameter_set_dim)
         print('\nSTARTING PREPROCESSING')
 
-        for j in range(50):
+        for j in range(3): #10, 30, 50
             all_data = np.empty([ number_of_models,parameter_set_dim ])
             all_stabilities = np.empty([ number_of_models ])
 

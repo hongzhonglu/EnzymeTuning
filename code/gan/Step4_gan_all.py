@@ -143,7 +143,7 @@ def main():
     print(train_type)
     print(parameter_set_dim)
     print ('\nSTARTING PREPROCESSING')
-    for j in range (50) :
+    for j in range (3) : #10, 30, 50
         all_data = np.empty ([number_of_models, parameter_set_dim])
         all_stabilities = np.empty ([number_of_models])
 
